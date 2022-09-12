@@ -6,7 +6,7 @@
 int main ()
 {
 char ch = 'a';
-while (ch <='z')
+while (ch <= 'z')
 {
 	printf("%c\n",ch);
 	ch++;
