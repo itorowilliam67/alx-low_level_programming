@@ -1,11 +1,11 @@
 #include <stdio.h>
 int main ()
 {
-char ch;
-for (ch - 'a' ; ch <= 'z' ; ch++)
+char ch = 'a';
+while (ch <='z')
 {
-	putchar(ch);
+	printf("%c",ch);
+	ch++;
 }
-putchar('\n');
 return 0;
 }
