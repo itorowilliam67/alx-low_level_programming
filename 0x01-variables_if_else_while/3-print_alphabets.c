@@ -1,43 +1,28 @@
 #include <stdio.h>
-/** 
- * this section of the code will print alphabet in lowercase
- * followed by a new line
- */
-
-
-int main(void) {
-
-	  char b = 'a';
-
-	    
-
-	    while (b <= 'z') {
-
-		        printf("%c\n", b);
-
-			    b++;
-
-			      }
-/** The section will print alphabet in uppercase
+/**
+ * main - entry point
  *
- *followed by a new line
+ * Retun 0 always (success)
  */
-	      
+int main(void)
+{
+	char c;
 
-	      char ba = 'A';
+	char d;
 
-	        
+	c = 'a';
+	d = 'd';
 
-	        while (ba <= 'Z') {
-
-			    printf("%c\n", ba);
-
-			        ba++;
-
-				  }
-
-		  
-
+	while 
+		(c <= 'z')
+			putchar(c);
+				c++;
+			}
+	while 
+		(d <= 'Z') {
+			putchar(c);
+			d++;
+		}
 		  return 0;
 
 }
