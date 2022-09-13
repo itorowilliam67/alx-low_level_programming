@@ -2,13 +2,13 @@
 /**
  * main - Printing c
  *
- * Return: always 0 (successful)
+ * Retuin: always 0 (successful)
  */
 int main(void)
 
 {
 
-	puti("Programming is like building a multilingual puzzle\n");
+	puts("Programming is like building a multilingual puzzle");
 
 	return(0);
 
