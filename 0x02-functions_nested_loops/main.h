@@ -1,5 +1,5 @@
-#ifndef HOLDBERTON_H_INCLUDE
-#define HOLDBERTON_H_INCLUDE
+#ifndef HOLDBERTON_H_INCLUDED
+#define HOLDBERTON_H_INCLUDED
 
 Int _putchar(char);
 
